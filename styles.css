@@ -11,7 +11,7 @@ body {
 main {
     width: 950px;
     margin: 40px auto;
-    background-color: #ffffff; /* White content area for maximum readability */
+    background-color: #ffffff; 
     color: #222; /* Dark text on white background */
     padding: 50px;
     border-top: 5px solid #d32f2f; /* Red accent bar */
@@ -42,7 +42,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* Optional: adds space between the image and the paragraphs */
     margin-bottom: 20px; 
     margin-top: 20px;
 }
@@ -58,7 +57,7 @@ h1, h2 {
 /*Paragraphs */
 p {
     line-height: 1.9;
-    text-align: justify; /* Full justified as per rubric option */
+    text-align: justify; 
     margin-bottom: 30px;
 }
 
