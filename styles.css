@@ -1,4 +1,83 @@
-.golden-img {
-    max-width: 50%;
-    height: auto;
+/* Deep charcoal background  */
+body {
+    background-color: #1a1a1b; 
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the main content  */
+main {
+    width: 950px;
+    margin: 40px auto;
+    background-color: #ffffff; /* White content area for maximum readability */
+    color: #222; /* Dark text on white background */
+    padding: 50px;
+    border-top: 5px solid #d32f2f; /* Red accent bar */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #d32f2f; /* Bold Red */
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffcdd2;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* Optional: adds space between the image and the paragraphs */
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center; /* Centered Heading 1 or 2 */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1a1a1b;
+}
+
+/*Paragraphs */
+p {
+    line-height: 1.9;
+    text-align: justify; /* Full justified as per rubric option */
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+.form-container {
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
 }
